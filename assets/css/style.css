@@ -242,7 +242,59 @@ h6 {
   left: 100%;
   visibility: visible;
 }
+ /* Style for the dropdown */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
 
+    /* Style for the dropdown button */
+    .dropdown .dropbtn {
+        padding: 10px;
+        font-size: 19px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        background-color: white;
+        margin-left: 10px;
+    }
+
+    /* Style for the dropdown content */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        z-index: 1;
+        border-radius: 4px;
+
+        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+        font-family: "Raleway", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #111111;
+    }
+
+    /* Style for the dropdown items */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Style for the dropdown items on hover */
+
+
+    /* Show the dropdown content when hovering over the dropdown button */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Style for the bilingual icon */
+    .icon {
+        margin-left: 5px;
+    }
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -368,7 +420,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/malaysia-view.jpg") top center no-repeat;
+  background: url("../img/bus-wallpaper-2.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -921,6 +973,8 @@ section#topBreadcrumbs {
   overflow: hidden;
   z-index: 1;
   background: rgba(17, 17, 17, 0.6);
+  box-shadow: 0 0 30px rgba(214, 215, 216, 1.5);
+
 }
 
 .portfolio .portfolio-wrap::before {

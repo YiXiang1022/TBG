@@ -1,25 +1,15 @@
 <style>
-
-    div#flexSearchCategory {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .d-flex {
-        display: flex !important;
-        width: auto !important;
-    }
     /* Add this to your existing CSS or create a new stylesheet */
-    .img-fluid {
-        max-width: 100%;
-        height: 306px !important;
-    }
+.img-fluid {
+    max-width: 100%;
+    height: 170px !important;
+}
 
-    img.img-fluid {
-        width: -webkit-fill-available !important;
-    }
+img.img-fluid {
+    width: -webkit-fill-available !important;
+}
     /* Style for the search input */
-    #portfolio-search,#portfolio-category {
+    #portfolio-search {
         padding: 10px;
         width: 250px;
         border: 1px solid #ddd;
@@ -51,17 +41,15 @@
     #portfolio-flters li:hover {
         color: #0056b3; /* Change to your desired hover color */
     }
-    .d-flex {
-        display: flex !important;
-        align-items: baseline;
-    }
-    h4#categoryLabel {
-        margin-right: 13px;
-    }
+
     /* Optional: Add styles for your portfolio items here */
-.cta {
+
+
+  
+
+    .cta {
         background: rgba(0, 0, 0, 0.6) /* Black color with 60% opacity */
-            url("assets/img/directory.jpg") /* Path to the background image */
+            url("assets/img/bus-arrival.jpg") /* Path to the background image */
             fixed /* Fixed background attachment */
             center center; /* Background position at the center of both axes */
         background-size: cover;
@@ -104,7 +92,7 @@
 
     <body>
 
-        <!-- ======= Header ======= -->
+         <!-- ======= Header ======= -->
         <header id="header" class="fixed-top d-flex align-items-center">
             <div class="container d-flex align-items-center">
                 <!--                <a href="index.html" class="logo me-auto"><img src="assets/img/TBG-logo.png" alt=""></a>-->
@@ -168,7 +156,7 @@
                 <div class="container">
 
                     <div class="text-center">
-                        <h1 id="ctaTitle">Directory</h1>
+                        <h1 id="ctaTitle">Bus Operators</h1>
 
                     </div>
 
@@ -180,7 +168,7 @@
 
                     <ol>
                         <li><a href="index.html">Home</a></li>
-                        <li>Directory</li>
+                        <li>Bus Operators</li>
                     </ol>
 
 
@@ -191,213 +179,118 @@
             <section id="portfolio" class="portfolio">
 
                 <div class="container" data-aos="fade-up">
-                    <div class="row" id="flexSearchCategory" data-aos="fade-up" data-aos-delay="100">
-                        <div class="col-lg-12 d-flex justify-content-left">
-                            <h4 id="categoryLabel">Categories</h4>
-                            <select class="form-control bg-light" id="portfolio-filters">
-                                <option value="*" class="filter-active">All</option>
-                                <option value=".filter-Amenities">Amenities and Facilities</option>
-                                <option value=".filter-Anchors">Anchors</option>
-                                <option value=".filter-Bakery">Bakery</option>
-                                <option value=".filter-Banking">Banking</option>
-                                <option value=".filter-Beauty">Beauty</option>
-                                <option value=".filter-Books">Books / Stationeries</option>
-                                <option value=".filter-Digital">Digital Lifestyle</option>
-                                <option value=".filter-Educational">Educational</option>
-                                <option value=".filter-Entertainment">Entertainment</option>
-                                <option value=".filter-Eyewear">Eyewear & Optical</option>
-                                <option value=".filter-Fashion">Fashion</option>
-                                <option value=".filter-FB">Food & Beverages</option>
-                                <option value=".filter-Gifts">Gifts & Souvenirs</option>
-                                <option value=".filter-Haircare">Haircare / Salon</option>
-                                <option value=".filter-HealthFitness">Health & Fitness</option>
-                                <option value=".filter-Healthcare">Healthcare</option>
-                                <option value=".filter-Home">Home</option>
-                                <option value=".filter-Jewellery">Jewellery</option>
-                                <option value=".filter-Services">Services</option>
-                                <option value=".filter-Specialty">Specialty</option>
-                                <option value=".filter-Supermarket">Supermarket</option>
-                                <option value=".filter-Timepieces">Timepieces</option>
-                                <option value=".filter-Toys">Toys</option>
 
-                            </select>
-
-                        </div>
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-lg-12 d-flex justify-content-end">
                             <input type="text" id="portfolio-search" placeholder="Search...">
                         </div>
                     </div>
 
 
-
-
                     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Amenities">
+                       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/locker.png" class="img-fluid" alt="">
+                                <img src="assets/img/bus/707.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" id="moreDetails" title="More Details">Lockers</a></h4>
-                                    <p>Level 3, LOT 27</p>
-                                   
+                                    <h4>Coachliner 707 Travel & Tours Sdn. Bhd.</h4>
+                                    <p>Tel : 06-2868707 / 06-2865707<br>Fax : 06-2862707<br> Email: <a href="mailto:coachliner_klsin707@hotmail.com">coachliner_klsin707@hotmail.com</a></p>
+<!--                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
 
                         
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Amenities">
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/charging-station.png" class="img-fluid" alt="">
+                                <img src="assets/img/bus/aerocity.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Charging Station</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
+                                    <h4>Agensi Pelancongan D & Adik Beradik Sdn Bhd</h4>
+                                    <p>Tel : 09-6301189<br>Fax : 09-6249417<br> Email: <a href="mailto:adikberadik89@gmail.com">adikberadik89@gmail.com</a></p>
+<!--                                    <div class="portfolio-links">
                                         <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Bakery">
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/bread-story.png" class="img-fluid" alt="">
+                                <img src="assets/img/bus/aerobus.png" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Bread Story</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
+                                    <h4>Wawasan Sutera Travel & Tours Sdn. Bhd.</h4>
+                                    <p>Tel : 010-2923888<br>Fax : 03-33487665<br> Email: <a href="mailto:ramesh69aerobus@gmail.com">ramesh69aerobus@gmail.com</a></p>
+<!--                                    <div class="portfolio-links">
                                         <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Banking">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/ATM.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>ATM</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Books">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/popular.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Popular</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Fashion">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/brands-outlet.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Brands Outlet</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Eyewear">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/mog.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>MOG</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-Fashion">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/adidas.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Adidas</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/4fingers.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>4 Fingers</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/A&W.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>A&W</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/boost.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>BOOST</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-6 portfolio-item filter-FB">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/portfolio/auntieAnne.png" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Auntie Anne's</h4>
-                                    <!--                                    <p>Web</p>-->
-                                    <div class="portfolio-links">
-                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
 
-
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/bus/alisan.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Alisan Golden Coach (M) Sdn. Bhd.</h4>
+                                    <p>Tel : 016-2163535<br>Fax : N/A<br> Email: <a href="alisanaccount@hotmail.com">alisanaccount@hotmail.com</a></p>
+<!--                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/bus/antarholiday.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Antar Holiday Sdn. Bhd.</h4>
+                                    <p>Tel : 017-5025333<br>Fax : 012-5395555<br> Email: <a href="">N/A</a></p>
+<!--                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/bus/ayuexp.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Ayu Holidays Sdn. Bhd.</h4>
+                                    <p>Tel : 012-2728427<br>Fax : N/A<br> Email: <a href="mailto: ayuholidays00@gmail.com"> ayuholidays00@gmail.com</a></p>
+<!--                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/bus/causewayekspress.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Handal Indah Sdn. Bhd.</h4>
+                                    <p>Tel : 07-3602244<br>Fax : N/A<br> Email: <a href="mailto:feedback@support.causewaylink.com.my">feedback@support.causewaylink.com.my</a></p>
+<!--                                    <div class="portfolio-links">
+                                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                        
 
                     </div>
+                    
 
                 </div>
             </section><!-- End Portfolio Section -->
 
         </main><!-- End #main -->
 
-        <!-- ======= Footer ======= -->
+         <!-- ======= Footer ======= -->
         <footer id="footer">
 
             <div class="footer-top">
@@ -451,6 +344,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="container d-md-flex py-4">
 
                 <div class="me-md-auto text-center text-md-start">
@@ -484,60 +378,7 @@
 
         <!-- Template Main JS File -->
         <script src="assets/js/main.js"></script>
-        <!-- Add this script at the end of your HTML body or in the head -->
-        <script>
-   $(document).ready(function () {
-    var $portfolioContainer = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-    });
-
-    // Store the selected category filter
-    var selectedCategoryFilter = '*';
-
-    // Filter items on select change
-    $('#portfolio-filters').on('change', function () {
-        // Clear the search input when a category is selected
-        $('#portfolio-search').val('');
-
-        selectedCategoryFilter = $(this).val();
-        filterPortfolioItems();
-        AOS.refresh();
-    });
-
-    // Search functionality
-    $('#portfolio-search').on('input', function () {
-        filterPortfolioItems();
-    });
-
-    function filterPortfolioItems() {
-        var searchValue = $('#portfolio-search').val().toLowerCase();
-
-        // Combine the category filter and search filter
-        var combinedFilter = selectedCategoryFilter;
-
-        // Only search in the <h4> elements
-        if (searchValue) {
-            combinedFilter += ':has(h4:contains("' + searchValue + '"))';
-        }
-
-        $portfolioContainer.isotope({
-            filter: combinedFilter
-        });
-    }
-
-    // Custom jQuery :contains() selector for case-insensitive search
-    $.expr[':'].contains = $.expr.createPseudo(function(arg) {
-        return function( elem ) {
-            return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-        };
-    });
-});
-
-        </script>
 
     </body>
 
 </html>
-
-
